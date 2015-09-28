@@ -509,7 +509,7 @@ class ModelCatalogProduct extends Model {
 		}
 	}
 	
-	public function getRandomProduct($limit){
+	public function getRandomProducts($limit){
 		$query = $this->db->query("SELECT product_id FROM " . DB_PREFIX . "product ORDER BY RAND() LIMIT $limit");
 		
 		foreach ($query->rows as $result) {
