@@ -8,7 +8,7 @@ $_['text_edit']        = 'Edit Google Analytics';
 $_['text_signup']      = 'Login to your <a href="http://www.google.com/analytics/" target="_blank"><u>Google Analytics</u></a> account and after creating your website profile copy and paste the analytics code into this field.';
 
 // Entry
-$_['entry_code']       = 'Google Analytics Code';
+$_['entry_code']       = 'Google Analytics Code with script tag';
 $_['entry_status']     = 'Status';
 
 // Error
